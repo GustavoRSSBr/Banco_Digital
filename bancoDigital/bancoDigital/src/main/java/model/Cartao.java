@@ -13,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Cartao {
+public abstract class Cartao {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idCartao;

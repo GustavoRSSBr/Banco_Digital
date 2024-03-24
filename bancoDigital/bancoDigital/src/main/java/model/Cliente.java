@@ -39,6 +39,5 @@ public class Cliente {
     @OneToOne
     private ContaPoupanca contaPoupanca;
 
-
 }
 
