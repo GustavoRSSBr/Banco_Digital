@@ -6,7 +6,6 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum Seguro {
-
     VIAGEM("seguro de viagens", 50.00),
     FRAUDE("seguro contra fraudes", 0.00);
 
